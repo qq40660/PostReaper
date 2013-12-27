@@ -1,0 +1,19 @@
+[Default]
+# General
+user-agent = Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36
+
+# Login
+login_url = http://bbs.stuhome.net/member.php?mod=logging&action=login
+username =
+password =
+### For STUHOME, there's no need to change these params.
+loginfield = username
+loginsubmit = true
+questionid = 0
+answer =
+refer = http://bbs.stuhome.net/
+
+# Crawl
+start_url = http://bbs.stuhome.net/forum.php?mod=forumdisplay&fid=61&typeid=286&typeid=286&filter=typeid&page=3
+keywords = 鞋子
+crawler_cnt = 10
